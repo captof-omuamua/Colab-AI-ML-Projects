@@ -84,3 +84,9 @@ The stages distinguish project experiments, prototypes and learning exercises. S
 ## Upstream work
 
 The Llama notebook adapts Unsloth's conversational fine-tuning workflow, and the translation notebooks adapt AI4Bharat IndicTrans2 examples. Original explanatory cells and any supplied attribution are retained. The notebooks also use the libraries and pretrained models named in their code; this repository does not include or relicense those model weights or datasets.
+
+## Additional recovered semester material
+
+The [speech variant guide](speech/recovered-semester/README.md) groups additional Tamil Whisper, Tamil Wav2Vec, and XLS-R notebook variants with the existing speech collection. Duplicate code copies were omitted.
+
+Related semester project material has been consolidated into the existing [Tamil summarization](https://github.com/captof-omuamua/extractive-abstractive-tamil-summarization), [Tamil-to-Telugu speech translation](https://github.com/captof-omuamua/Ensemble-Transformer-Model-for-Speech-to-Speech-Translation-Tamil-to-Telugu-), [NLP](https://github.com/captof-omuamua/NLP-and-Text-Analytics), and [reinforcement-learning](https://github.com/captof-omuamua/Reinforcement-Learning-Experiments) repositories. This collection remains the broad archive and topic index.
