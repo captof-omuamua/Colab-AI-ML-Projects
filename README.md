@@ -15,7 +15,7 @@ Topic repositories have their own notebook guide and setup notes. The original c
 | Indic Language Translation | 2 | [Open repository](https://github.com/captof-omuamua/Indic-Language-Translation) |
 | Python Web and Storage Automation | 2 | [Open repository](https://github.com/captof-omuamua/Python-Web-and-Storage-Automation) |
 | Computer Vision and CNN Experiments | 4 | [Open repository](https://github.com/captof-omuamua/Computer-Vision-and-CNN-Experiments) |
-| Speech Recognition and Audio Analysis | 9 | [Browse in this collection](speech/) |
+| Speech Recognition and Audio Analysis | 13 | [Browse in this collection](speech/) |
 | Machine Learning Fundamentals | 8 | [Browse in this collection](ml_fundamentals/) |
 | Algorithms and Cryptography Lab | 1 | [Browse in this collection](algorithms/) |
 
