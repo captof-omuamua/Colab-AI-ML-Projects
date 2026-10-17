@@ -1,0 +1,16 @@
+.env
+.env.*
+!.env.example
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.h5
+*.pth
+*.pt
+*.safetensors
+*.pkl
+*.wav
+*.mp3
+data/
+outputs/
+checkpoints/
