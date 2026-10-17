@@ -4,16 +4,20 @@ An organised collection of project experiments and learning notebooks from Googl
 
 ## Browse by topic
 
-- [Algorithms](algorithms/)
-- [Automation](automation/)
-- [Computer Vision](computer_vision/)
-- [Forecasting](forecasting/)
-- [Generative Ai](generative_ai/)
-- [Ml Fundamentals](ml_fundamentals/)
-- [Nlp](nlp/)
-- [Reinforcement Learning](reinforcement_learning/)
-- [Speech](speech/)
-- [Translation](translation/)
+Topic repositories have their own notebook guide and setup notes. The original collection remains available here for browsing the full archive.
+
+| Topic | Notebooks | Location |
+| --- | ---: | --- |
+| Generative AI and LLM Fine-Tuning | 1 | [Open repository](https://github.com/captof-omuamua/Generative-AI-and-LLM-Fine-Tuning) |
+| Retail Sales and Time Series Forecasting | 2 | [Open repository](https://github.com/captof-omuamua/Retail-Sales-and-Time-Series-Forecasting) |
+| NLP and Text Analytics | 5 | [Open repository](https://github.com/captof-omuamua/NLP-and-Text-Analytics) |
+| Reinforcement Learning Experiments | 4 | [Open repository](https://github.com/captof-omuamua/Reinforcement-Learning-Experiments) |
+| Indic Language Translation | 2 | [Open repository](https://github.com/captof-omuamua/Indic-Language-Translation) |
+| Python Web and Storage Automation | 2 | [Open repository](https://github.com/captof-omuamua/Python-Web-and-Storage-Automation) |
+| Computer Vision and CNN Experiments | 4 | [Open repository](https://github.com/captof-omuamua/Computer-Vision-and-CNN-Experiments) |
+| Speech Recognition and Audio Analysis | 9 | [Browse in this collection](speech/) |
+| Machine Learning Fundamentals | 8 | [Browse in this collection](ml_fundamentals/) |
+| Algorithms and Cryptography Lab | 1 | [Browse in this collection](algorithms/) |
 
 ## Newest to oldest
 
