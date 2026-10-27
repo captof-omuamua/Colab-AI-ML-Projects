@@ -9,6 +9,6 @@
 
 ## Running these notebooks
 
-NumPy, Matplotlib, PyTorch and Gym/Gymnasium. TD3 additionally uses Stable-Baselines3. These historical experiments use different environment APIs; choose an environment compatible with the notebook you are running.
+NumPy, Matplotlib, PyTorch and Gym/Gymnasium. TD3 additionally uses Stable-Baselines3. These experiments use different environment APIs; choose an environment compatible with the notebook you are running.
 
 Open one notebook in Colab or Jupyter, read its setup cells, set the input paths, and then run the sections you need. Training and network operations are not run automatically by this repository.

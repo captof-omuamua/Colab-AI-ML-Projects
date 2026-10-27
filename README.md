@@ -1,10 +1,18 @@
 # Colab AI, ML and Automation Projects
 
-An organised collection of project experiments and learning notebooks from Google Colab. It covers language models, retail forecasting, Indian-language translation and speech, reinforcement learning, image classification, text processing and Python automation.
+My Google Colab notebooks, organised by topic: LLM fine-tuning, Indian-language speech recognition and translation, forecasting, reinforcement learning, computer vision, NLP and Python automation.
+
+## Highlights
+
+- **LLM fine-tuning:** [Llama 3.2 3B with QLoRA](generative_ai/01_llama_lora_finetuning.ipynb) using Unsloth and TRL, exported to GGUF.
+- **Speech recognition:** Whisper fine-tuning for [Tamil](speech/22_tamil_whisper_finetuning.ipynb) and [Malayalam](speech/26_malayalam_whisper_finetuning.ipynb), and [Hindi XLS-R with CTC](speech/25_hindi_xlsr_ctc_finetuning.ipynb).
+- **Translation:** [IndicTrans2 batch translation](translation/10_indictrans_multilingual_batch_translation.ipynb) across Indian languages.
+- **Forecasting:** [retail sales forecasting](forecasting/02_retail_sales_forecasting.ipynb) with chronological validation; the full study is in its [own repository](https://github.com/captof-omuamua/Retail-Sales-and-Time-Series-Forecasting).
+- **Reinforcement learning:** [TD3 vehicle navigation](reinforcement_learning/09_td3_vehicle_navigation.ipynb) and [DDPG actor-critic](reinforcement_learning/21_ddpg_actor_critic.ipynb).
 
 ## Browse by topic
 
-Topic repositories have their own notebook guide and setup notes. The original collection remains available here for browsing the full archive.
+Topic repositories have their own notebook guide and setup notes. Every notebook is also listed below.
 
 | Topic | Notebooks | Location |
 | --- | ---: | --- |
@@ -19,9 +27,9 @@ Topic repositories have their own notebook guide and setup notes. The original c
 | Machine Learning Fundamentals | 8 | [Browse in this collection](ml_fundamentals/) |
 | Algorithms and Cryptography Lab | 1 | [Browse in this collection](algorithms/) |
 
-## Newest to oldest
+## All notebooks, newest first
 
-This index follows the original Colab **last-opened** dates. The numbers preserve review order; gaps correspond to empty files, reference material or drafts not selected for this collection.
+Numbers keep the original notebook order, and dates are when each notebook was last worked on in Colab.
 
 | Order | Last opened in Colab | Notebook | Stage |
 | --- | --- | --- | --- |
@@ -73,20 +81,18 @@ cd Colab-AI-ML-Projects
 
 Choose a topic and read its README before opening a notebook in Colab or Jupyter. Each topic lists the libraries and inputs it uses. Dependencies are kept per notebook rather than combined into one environment because these experiments span several frameworks and API versions.
 
-Datasets, audio recordings, trained weights and credentials are supplied separately. Some training notebooks need a GPU and access to the model or dataset through your own account.
+Datasets, audio recordings, trained weights and credentials are not stored in the repository. Some training notebooks need a GPU and access to the model or dataset through your own account.
 
-## Review and preparation
+## Quality checks
 
-The public copies have been checked for valid notebook JSON, Python cell syntax with notebook commands handled separately, embedded credentials, and file links. Saved outputs and execution metadata were cleared when preparing the public copies. Small syntax/API repairs and the sentiment output correction were made where identified; GPU and external-dataset training has not been rerun as part of this review. Small CPU checks passed for the DFT, OR perceptron, CSV text statistics, modular arithmetic and NumPy character-reconstruction examples.
-
-The stages distinguish project experiments, prototypes and learning exercises. Saved results from the original notebooks are not presented as newly reproduced benchmark results.
+Every notebook has been checked for valid notebook format, Python syntax, credentials and broken links. The DFT, OR perceptron, CSV text statistics, modular arithmetic and character-reconstruction notebooks run end to end on CPU. The Stage column marks each notebook as a project experiment, prototype or learning exercise.
 
 ## Upstream work
 
 The Llama notebook adapts Unsloth's conversational fine-tuning workflow, and the translation notebooks adapt AI4Bharat IndicTrans2 examples. Original explanatory cells and any supplied attribution are retained. The notebooks also use the libraries and pretrained models named in their code; this repository does not include or relicense those model weights or datasets.
 
-## Additional recovered semester material
+## More speech-recognition experiments
 
-The [speech variant guide](speech/recovered-semester/README.md) groups additional Tamil Whisper, Tamil Wav2Vec, and XLS-R notebook variants with the existing speech collection. Duplicate code copies were omitted.
+The [speech-recognition variants](speech/asr-variants/README.md) add Tamil Whisper, Tamil Wav2Vec 2.0 and XLS-R experiments.
 
-Related semester project material has been consolidated into the existing [Tamil summarization](https://github.com/captof-omuamua/extractive-abstractive-tamil-summarization), [Tamil-to-Telugu speech translation](https://github.com/captof-omuamua/Ensemble-Transformer-Model-for-Speech-to-Speech-Translation-Tamil-to-Telugu-), [NLP](https://github.com/captof-omuamua/NLP-and-Text-Analytics), and [reinforcement-learning](https://github.com/captof-omuamua/Reinforcement-Learning-Experiments) repositories. This collection remains the broad archive and topic index.
+Larger projects have their own repositories: [Tamil summarization](https://github.com/captof-omuamua/extractive-abstractive-tamil-summarization), [Tamil-to-Telugu speech translation](https://github.com/captof-omuamua/Ensemble-Transformer-Model-for-Speech-to-Speech-Translation-Tamil-to-Telugu-), [NLP](https://github.com/captof-omuamua/NLP-and-Text-Analytics), and [reinforcement-learning](https://github.com/captof-omuamua/Reinforcement-Learning-Experiments) repositories. This collection is the topic index for all of them.
